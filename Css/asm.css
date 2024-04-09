@@ -1,0 +1,275 @@
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex-basis: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 30px;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-1 {
+    padding: 50px;
+}
+
+.text-2 {
+    border: 1px solid gray;
+}
+
+.text-2>a {
+    padding: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.text-2>a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.text-2 h3 {
+    text-align: center;
+}
+
+.text-3 h2 {
+    text-align: center;
+}
+
+.pencil-1 h4 {
+    padding-left: 20px;
+}
+
+.diadanh {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+.vientintuc {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.hang1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.col2 img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.col2 {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+
+
+.col {
+    flex-direction: row;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.col img {
+    width: 75%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.col2 del {
+    color: red;
+}
+
+.col2 h5 {
+    color: blue;
+}
+
+.col:hover {
+    box-shadow: 5px 10px blue;
+}
+
+footer {
+
+    text-align: center;
+    background-color: rgb(0, 255, 213);
+    color: gray;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+.chu1 {
+    padding-left: 20px;
+}
+
+.main {
+    flex-basis: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main {
+        flex-basis: 100%;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .side {
+        flex-basis: 100%;
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .text-3 {
+        text-align: center;
+    }
+
+    .hang1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .col2 {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main {
+        flex-basis: 100%;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .side {
+        flex-basis: 100%;
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+
+    .col {
+        width: 75%;
+        flex-direction: column;
+    }
+
+    .col2 {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .col2 del {
+        color: red;
+    }
+
+    .col2 h .hang1 {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .main {
+        flex-basis: 100%;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .side {
+        flex-basis: 100%;
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .text-3 {
+        text-align: center;
+    }
+
+    .hang1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .col2 {
+        flex-direction: row;
+    }
+}
